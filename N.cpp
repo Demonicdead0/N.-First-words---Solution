@@ -92,9 +92,6 @@ int main() {
     {
     	KMPSearch(s,v[i]);
     }
-   // sort(vv.begin(), vv.end());
-   // cout<<vv.size()<<endl;
-    //dbii(vv);
     
     queue<int> q; q.push(0);
     vector<int> visited(100010,0);
